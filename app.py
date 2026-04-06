@@ -19,7 +19,8 @@ st.title("Customer Churn Prediction..")
 
 Credit_Score = st.number_input('Credit_score',min_value=0.0)
 Age = st.number_input('Age',min_value=0,max_value=110)
-Tenure = st.number_input('Tenure',)
+Tenure = st.number_input('Tenure',min_value=0,max_value=10)
+
 
     
     
